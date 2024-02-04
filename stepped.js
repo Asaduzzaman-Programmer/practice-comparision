@@ -1,4 +1,4 @@
-const price = 5000;
+const price = 9000;
 
 if (price >= 5000){
 
@@ -7,8 +7,12 @@ if (price >= 5000){
     const discount = price * 10/100;
 
     // console.log(discountPrice);
-    
+
     const discountPrice = price - discount;
     console.log(discountPrice);
 
 }
+
+else(
+    console.log(price)
+)
